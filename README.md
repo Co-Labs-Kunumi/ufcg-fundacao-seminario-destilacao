@@ -1,39 +1,22 @@
-<h1 align="center">Título da Aplicação</h1>
+<h1 align="center">Seminário Destilação - Artefatos</h1>
 
-> Uma breve descrição do propósito do projeto.
-
----
-## 🏛️ Arquitetura
-
-O sistema é baseado em uma arquitetura multi-agente, onde diferentes agentes desempenham papéis específicos. Abaixo está uma visão geral:
-
-| **Agente**       | **Descrição**                              |
-|-------------------|--------------------------------------------|
-| Agente X         | Realiza a tarefa A dentro do sistema.      |
-| Agente Y         | Foca na comunicação entre os módulos.      |
-| Agente Z         | Monitora o desempenho geral do sistema.    |
+> Este repositório documenta o conteúdo e os artefatos utilizados no seminário apresentado sobre **Destilação de Conhecimento**.
 
 ---
-## 🚀 Instalação
+## 📚 Artigos Utilizados
 
-Passo a passo de como instalar e executar seu sistema
+1. **[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)**  
+   Artigo inovador que introduz a técnica de *knowledge distillation* com redes professor-aluno.
 
-```
-Adicione blocos de comando se necessário.
-```
+2. **[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)**    
+   Proposta de destilação de modelos BERT com técnicas de compressão em vários níveis.
 
----
-## 👩🏻‍💻 Uso
-Exemplos de como utilizar o código ou aplicação.
-
-```
-Adicione blocos de comando se necessário.
-```
+3. **[A Survey on Knowledge Distillation of Large Language Models](https://arxiv.org/html/2402.13116v4)**   
+   Pesquisa completa sobre Destilação em LLMs (2024).
 
 ---
-## 🤝 Contribuição
-Guia para colaboradores, pull requests...
+## 🛠️ Artefatos
 
----
-## 📜 Licença
-Informar a licença do projeto.
+- **Apresentação em slides**: [slides/](...)
+- **Resumo dos artigos**: [MasterChef-AI](https://agents4good.github.io/MasterChef-AI/content/destilacao/)
+- **Código de exemplo**: [POSCOMP/](POSCOMP/)
