@@ -1,0 +1,302 @@
+[
+  {
+    "edicao": 2019,
+    "id": "2019-09",
+    "numero": 9,
+    "enunciado": "Simplifique, com a ajuda dos Mapas de Karnaugh, a função cuja expressão em termos\ncanônicos é: \\(𝑓(𝑥, 𝑦, 𝑧) = ∑ 𝑚(2,3,4,5,6,7)\\)",
+    "alternativas": [
+      "a) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌\\)",
+      "b) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌 + 𝑍\\)",
+      "c) \\(𝑓(𝑋, 𝑌, 𝑍) = \\bar{𝑋} + 𝑌\\)",
+      "d) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋𝑌 + 𝑌\\)",
+      "e) \\(𝑓(𝑋, 𝑌, 𝑍) = 𝑋 + 𝑌 + \\bar{Z}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Matemática Discreta",
+    "subarea": "Minimização de Funções Booleanas",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para simplificar a função booleana f(x, y, z) = Σm(2,3,4,5,6,7) usando o Mapa de Karnaugh, primeiro devemos identificar as combinações de variáveis correspondentes aos mintermos dados. As combinações são: 010, 011, 100, 101, 110, 111. No Mapa de Karnaugh 3x3, essas posições são preenchidas com 1. A configuração do mapa é a seguinte:\n\n| xz \\ y | 00 | 01 | 11 | 10 |\n|--------|----|----|----|----|\n| 0      |  0 |  1 |  1 |  0 |\n| 1      |  0 |  1 |  1 |  1 |\n\nAgrupando os 1s adjacentes, podemos formar dois grupos: um grupo de quatro 1s (abrangendo as posições 011, 111, 101, 001) e um grupo de dois 1s (abrangendo as posições 110, 111). O grupo de quatro 1s simplifica para Y, e o grupo de dois 1s simplifica para X. Assim, a expressão simplificada da função é f(X, Y, Z) = X + Y.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-13",
+    "numero": 13,
+    "enunciado": "Dez pessoas estão participando de um campeonato de xadrez. Na primeira rodada\ndo campeonato, haverá cinco partidas. De quantas maneiras distintas é possível organizar a primeira rodada do campeonato, considerando que não há distinção entre a partida “competidor A versus competidor B” e a partida “competidor B versus competidor A”?",
+    "alternativas": [
+      "a) 45.",
+      "b) 252.",
+      "c) 945.",
+      "d) 3.840.",
+      "e) 113.400."
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Análise Combinatória",
+    "subarea": "Combinações",
+    "dificuldade": "Média",
+    "gabarito": "C",
+    "solucao": "Para resolver a questão, precisamos calcular de quantas maneiras podemos escolher 5 pares de competidores a partir de um grupo de 10 pessoas, sem considerar a ordem dentro dos pares. Isso é um problema de combinação. \n\nPrimeiro, escolhemos 2 pessoas para formar o primeiro par, depois outras 2 para o segundo par, e assim por diante, até formarmos 5 pares. \n\nO número total de maneiras de escolher 2 pessoas de 10 é dado pela combinação de 10 elementos tomados 2 a 2, que é C(10, 2). \n\nC(10, 2) = 10! / (2! * (10-2)!) = 45.\n\nNo entanto, precisamos formar 5 pares, então devemos dividir o resultado por 5! para corrigir a contagem, pois a ordem dos pares não importa. \n\nAssim, o número total de maneiras é dado por: \n\n(10! / (2!^5 * 5!)) = 252.\n\nPortanto, a alternativa correta é B) 252.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-08",
+    "numero": 8,
+    "enunciado": "Determine os intervalos da função \\(𝑓(𝑥) = 5𝑥^2\\sqrt{𝑥 + 1}\\).",
+    "alternativas": [
+      "a) \\(𝐼 = (−1, −\\frac{4}{5}) ; 𝐼 = (−\\frac{4}{5}, 0) ; 𝐼 = (0, \\infty)\\)",
+      "b) \\(𝐼 = (−\\infty, − \\frac{4}{5}) ; 𝐼 = (−\\frac{4}{5}, 0) ; 𝐼 = (0, \\infty)\\)",
+      "c) \\(𝐼 = (−1, 0); 𝐼 = (0, 1); 𝐼 = (1, \\infty)\\)",
+      "d) \\(𝐼 = (−1, 1); 𝐼 = (1,\\frac{5}{4}) ; 𝐼 = (\\frac{5}{4},\\infty)\\)",
+      "e) \\(𝐼 = (−∞, −1); 𝐼 = (−1, 1); 𝐼 = (1, ∞)\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Funções Reais de uma Variável: Continuidade e Diferenciabilidade",
+    "dificuldade": "Fácil",
+    "gabarito": "A",
+    "solucao": "Para determinar os intervalos de definição da função f(x) = 5x²√x + 1, precisamos analisar a expressão dentro da raiz quadrada, que é x. A função raiz quadrada está definida apenas para valores de x ≥ 0. Portanto, a função f(x) só está definida para x ≥ 0. Além disso, não há restrições adicionais na expressão, já que x² é sempre não negativo e a soma com 1 não afeta o domínio. Assim, o domínio da função é [0, ∞). No entanto, a questão parece pedir uma análise dos intervalos de interesse para a função, que são (−∞, −1), (−1, 1) e (1, ∞), considerando que a função é contínua e definida em x ≥ 0. Portanto, a alternativa correta é a E.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-09",
+    "numero": 9,
+    "enunciado": "Calcule o vetor gradiente da função \\(𝑓(𝑥,𝑦) = 𝑒^{−𝑥} sen(𝑥 + 𝑦)\\) no ponto \\(𝑃 (0, \\pi)\\).",
+    "alternativas": [
+      "a) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}0\\\\1\\end{pmatrix}\\)",
+      "b) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}1\\\\1\\end{pmatrix}\\)",
+      "c) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}-1\\\\1\\end{pmatrix}\\)",
+      "d) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}-1\\\\-1\\end{pmatrix}\\)",
+      "e) \\(\\nabla𝑓(0, 𝜋) =\\begin{pmatrix}0\\\\0\\end{pmatrix}\\)"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Cálculo Diferencial e Integral",
+    "subarea": "Gradientes",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para calcular o vetor gradiente da função f(x, y) = e^(-x) sen(x + y), precisamos encontrar as derivadas parciais de f em relação a x e y. \n\nA derivada parcial de f em relação a x é dada por: \n∂f/∂x = ∂/∂x [e^(-x) sen(x + y)] = -e^(-x) sen(x + y) + e^(-x) cos(x + y). \n\nA derivada parcial de f em relação a y é dada por: \n∂f/∂y = ∂/∂y [e^(-x) sen(x + y)] = e^(-x) cos(x + y). \n\nNo ponto P(0, π), temos: \n∂f/∂x (0, π) = -e^(0) sen(0 + π) + e^(0) cos(0 + π) = 0 - 1 = -1. \n∂f/∂y (0, π) = e^(0) cos(0 + π) = -1. \n\nPortanto, o vetor gradiente ∇f(0, π) é (-1, -1). \n\nAssim, a alternativa correta é B) ∇f(0, π) = ( )\n1\n−1.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-20",
+    "numero": 20,
+    "enunciado": "Em uma linha de produção, sabe-se que a probabilidade de ter uma peça com defeito é de 0,05. Se o conjunto de unidades determinadas constitui um conjunto de ensaios independentes, qual é a probabilidade de que pelo menos uma peça se encontre com defeito em um total de 10 unidades?",
+    "alternativas": [
+      "a) 10,0%",
+      "b) 40,0%",
+      "c) 50,0%",
+      "d) 80,0%",
+      "e) 100,0%"
+    ],
+    "area_conhecimento": "Matemática",
+    "area": "Probabilidade e Estatística",
+    "subarea": "Distribuições de Probabilidades",
+    "dificuldade": "Fácil",
+    "gabarito": "B",
+    "solucao": "Para resolver essa questão, precisamos calcular a probabilidade de que pelo menos uma peça esteja com defeito em um total de 10 unidades. Primeiro, calculamos a probabilidade de que nenhuma peça esteja com defeito. A probabilidade de uma peça não ter defeito é 1 - 0,05 = 0,95. Como os ensaios são independentes, a probabilidade de que todas as 10 peças não tenham defeito é 0,95^10. Calculando isso, temos 0,95^10 ≈ 0,5987. Portanto, a probabilidade de que pelo menos uma peça esteja com defeito é 1 - 0,5987 ≈ 0,4013, ou aproximadamente 40,13%. No entanto, ao arredondar para uma das alternativas fornecidas, a opção mais próxima é 40,0%, que corresponde à alternativa D.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-22",
+    "numero": 22,
+    "enunciado": "Considere as seguintes funções:\n\\[𝑓(𝑛) = 2^𝑛\\]\n\\[𝑔(𝑛) = 𝑛!\\]\n\\[ℎ(𝑛) = 𝑛^{\\log n}\\]\nAssinale a alternativa correta a respeito do comportamento assintótico de \\(f(n)\\), \\(g(n)\\) e \\(h(n)\\).",
+    "alternativas": [
+      "a) \\(𝑓(𝑛) = 𝑂(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).\\)",
+      "b) \\(𝑓(𝑛) = 𝛺(𝑔(𝑛)); 𝑔(𝑛) = 𝑂(ℎ(𝑛)).\\)",
+      "c) \\(𝑔(𝑛) = 𝑂(𝑓(𝑛)); ℎ(𝑛) = 𝑂(𝑓(𝑛)).\\)",
+      "d) \\(ℎ(𝑛) = 𝑂(𝑓(𝑛)); 𝑔(𝑛) = 𝛺(𝑓(𝑛)).\\)",
+      "e) Nenhuma das anteriores."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Análise de Algoritmos",
+    "subarea": "Análise Assintótica de Limites de Complexidade",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Para determinar o comportamento assintótico das funções f(n), g(n) e h(n), precisamos compará-las em termos de crescimento. \n\n1. f(n) = 2^n: Esta é uma função exponencial, que cresce muito rapidamente à medida que n aumenta.\n2. g(n) = n!: O fatorial de n cresce ainda mais rapidamente do que qualquer função exponencial, pois n! = 1 * 2 * 3 * ... * n.\n3. h(n) = n log n: Esta é uma função que cresce mais lentamente que uma função exponencial, mas mais rapidamente que uma função linear.\n\nAgora, vamos analisar as alternativas:\n\n- A) f(n) = O(g(n)); g(n) = O(h(n)).\n  - f(n) não é O(g(n)) porque g(n) cresce mais rapidamente que f(n).\n  - g(n) não é O(h(n)) porque g(n) cresce mais rapidamente que h(n).\n\n- B) f(n) = Ω(g(n)); g(n) = O(h(n)).\n  - f(n) não é Ω(g(n)) porque g(n) cresce mais rapidamente que f(n).\n  - g(n) não é O(h(n)) porque g(n) cresce mais rapidamente que h(n).\n\n- C) g(n) = O(f(n)); h(n) = O(f(n)).\n  - g(n) não é O(f(n)) porque g(n) cresce mais rapidamente que f(n).\n  - h(n) é O(f(n)) porque f(n) cresce mais rapidamente que h(n).\n\n- D) h(n) = O(f(n)); g(n) = Ω(f(n)).\n  - h(n) é O(f(n)) porque f(n) cresce mais rapidamente que h(n).\n  - g(n) é Ω(f(n)) porque g(n) cresce mais rapidamente que f(n).\n\n- E) Nenhuma das anteriores.\n  - Esta é a alternativa correta, pois as outras alternativas contêm afirmações incorretas sobre o comportamento assintótico das funções.\n\nPortanto, a alternativa correta é E.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-45",
+    "numero": 45,
+    "enunciado": "Considere o programa abaixo escrito em linguagem C. No instante da execução da\nlinha 5, ter-se-á uma hierarquia composta de quantos processos e threads, respectivamente?\n```\n\n1    main(){\n2    int i;\n3    for(i=0;i<3;i++)\n4       fork();\n5    while(1);\n6    }\n\n```",
+    "alternativas": [
+      "a) 1 e 0.",
+      "b) 3 e 0.",
+      "c) 4 e 1.",
+      "d) 7 e 7.",
+      "e) 8 e 8."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Sistemas Operacionais",
+    "subarea": "Gerência de Processos",
+    "dificuldade": "Média",
+    "gabarito": "E",
+    "solucao": "O programa em questão utiliza a função fork() dentro de um loop que itera 3 vezes. A função fork() é responsável por criar um novo processo filho que é uma cópia do processo pai. Cada chamada a fork() duplica o número de processos existentes. Inicialmente, há 1 processo (o processo principal). Após a primeira iteração do loop, há 2 processos. Após a segunda iteração, cada um dos 2 processos cria mais um processo, totalizando 4 processos. Na terceira iteração, cada um dos 4 processos cria mais um processo, resultando em 8 processos no total. Não há criação de threads, apenas processos. Portanto, no instante da execução da linha 5, haverá 8 processos e 0 threads.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-36",
+    "numero": 36,
+    "enunciado": "Um mapa rodoviário é modelado como um grafo em que os vértices representam\ninterseções. As arestas representam segmentos de estrada entre interseções. O peso de cada aresta representa a distância entre interseções. Agora, considere que um motorista deseja obter o caminho mais curto entre duas cidades. Dado um mapa contendo as distâncias entre cada par de interseções adjacentes, como obter o caminho mais curto entre duas cidades?",
+    "alternativas": [
+      "a) Caminho mais curto com destino único.",
+      "b) Caminho gerador mínimo de origem única.",
+      "c) Caminho mais curto com origem única.",
+      "d) Caminho mais curto entre todos os pares de vértices.",
+      "e) Caminho gerador mínimo de origem múltipla."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Teoria dos Grafos",
+    "subarea": "Algoritmos do Menor Caminho",
+    "dificuldade": "Fácil",
+    "gabarito": "C",
+    "solucao": "A questão descreve um problema clássico de encontrar o caminho mais curto entre duas cidades em um mapa rodoviário modelado como um grafo. Neste contexto, o problema é resolvido utilizando algoritmos de menor caminho com origem única, como o algoritmo de Dijkstra ou o algoritmo de Bellman-Ford. Esses algoritmos são projetados para encontrar o caminho mais curto de um único vértice de origem para todos os outros vértices no grafo, permitindo assim determinar o caminho mais curto para um vértice de destino específico. Portanto, a alternativa correta é 'C) Caminho mais curto com origem única.'.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-31",
+    "numero": 31,
+    "enunciado": "Dada a função \\(F(W, X, Y, Z)\\) composta dos termos mínimos\n(minterm) = {4, 8, 9, 10, 13, 14} e dos termos não essenciais (don’t care) = {5, 6, 7}, simplifique\nessa função como produto de somas.",
+    "alternativas": [
+      "a) \\((W+X)*( \\bar{W} + \\bar{X} + Y + Z)*( \\bar{Y} + \\bar{Z})\\)",
+      "b) \\((W+ \\bar{X}+ \\bar{Z})*(W+X+ \\bar{Z} )*(\\bar{W} + \\bar{X})*(\\bar{Y} + Z)\\)",
+      "c) \\((\\bar{W} + X)*(W+Y+ \\bar{Z})*(W+\\bar{Y}+Z)* *(W+\\bar{X}+ \\bar{Y})\\)",
+      "d) \\((W+X)*(\\bar{W} + \\bar{Y} + \\bar{Z})\\)",
+      "e) \\((W+X)*(\\bar{W} + \\bar{Y} + \\bar{Z})*(\\bar{W} + \\bar{X} + Y + Z)\\)"
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Circuitos Digitais",
+    "subarea": "Minimização e Otimização de Funções Combinatórias",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para simplificar a função F(W, X, Y, Z) como produto de somas, começamos identificando os mintermos e os termos don't care. Os mintermos dados são {4, 8, 9, 10, 13, 14} e os don't care são {5, 6, 7}. Em binário, esses mintermos são: 4 (0100), 8 (1000), 9 (1001), 10 (1010), 13 (1101), 14 (1110). Os don't care são: 5 (0101), 6 (0110), 7 (0111). Utilizando o mapa de Karnaugh para simplificação, podemos agrupar os mintermos e os don't care para obter a expressão mais simplificada. Após simplificação, a expressão como produto de somas é (W+X)*(W̅ + Y̅ + Z̅)*(W̅ + X̅ + Y + Z), que corresponde à alternativa E.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2023,
+    "id": "2023-37",
+    "numero": 37,
+    "enunciado": "Qual é a Expressão Regular (ER) que denota a linguagem a seguir?\n\\(𝐿 = \\{𝑤 ∈ \\{𝑎, 𝑏\\}∗ | w \\) não pode terminar com \\(ba\\)\\(\\}\\)",
+    "alternativas": [
+      "a) \\(¬( (𝑎 ∪ 𝑏)^∗𝑏𝑎 )\\)",
+      "b) \\((𝑎 ∪ 𝑏)^∗𝑏𝑎\\)",
+      "c) \\((𝑎 ∪ 𝑏)^∗ − ( (𝑎 ∪ 𝑏)^∗𝑏𝑎 )\\)",
+      "d) \\(( (𝑎 ∪ 𝑏)^∗(𝑏 ∪ 𝑎𝑎) ) ∪ 𝑎 ∪ 𝜆\\)",
+      "e) A linguagem L não é regular e, portanto, não pode ser denotada por uma ER."
+    ],
+    "area_conhecimento": "Fundamentos da Computação",
+    "area": "Linguagens Formais, Autômatos e Computabilidade",
+    "subarea": "Linguagens Regulares",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "A linguagem L é definida como o conjunto de palavras sobre o alfabeto {a, b} que não terminam com 'ba'. Para denotar essa linguagem usando uma expressão regular, precisamos considerar todas as palavras possíveis sobre {a, b} e remover aquelas que terminam com 'ba'. A expressão regular para todas as palavras sobre {a, b} é (a ∪ b)*. As palavras que terminam com 'ba' são denotadas pela expressão regular (a ∪ b)*ba. Portanto, a expressão regular que denota a linguagem L é a diferença entre todas as palavras e aquelas que terminam com 'ba', que é (a ∪ b)* − ((a ∪ b)*ba). A alternativa C representa corretamente essa expressão.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-56",
+    "numero": 56,
+    "enunciado": "Analise as seguintes assertivas sobre padrões arquiteturais de software e assinale V,\nse verdadeiras, ou F, se falsas.\\\n( ) Mesmo que um dado padrão arquitetural ofereça uma solução para o problema sendo resolvido, nem sempre ele é adequado. Fatores como contexto e o sistema de forças que afeta a solução fazem também parte do processo de avaliação e da escolha de padrões adequados.\\\n( ) Padrão MVC é uma adaptação do padrão arquitetural Camadas. A Camada Visão lida com a apresentação e a manipulação da interface, a Camada Modelo organiza os objetos específicos da aplicação, e a Camada Controle posiciona-se entre estas duas com as regras do negócio.\\\n( ) O padrão Broker é voltado a problemas de ambientes distribuídos. Sugere uma arquitetura na qual um componente (broker) estabelece uma mediação que permite um desacoplamento entre clientes e servidores.\\\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "a) V – V – V.",
+      "b) F – F – V.",
+      "c) V – V – F.",
+      "d) V – F – V.",
+      "e) F – V – F."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Engenharia de Software",
+    "subarea": "Padrões de Desenvolvimento",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "Vamos analisar cada assertiva separadamente:\n\n1. A primeira assertiva afirma que, mesmo que um padrão arquitetural ofereça uma solução para um problema, ele pode não ser adequado devido a fatores como contexto e forças que afetam a solução. Isso é verdadeiro, pois a escolha de um padrão arquitetural depende de vários fatores contextuais e não apenas da solução que ele oferece.\n\n2. A segunda assertiva descreve o padrão MVC como uma adaptação do padrão arquitetural de Camadas, com a Camada Visão lidando com a interface, a Camada Modelo organizando os objetos da aplicação e a Camada Controle contendo as regras de negócio. Esta assertiva é falsa. No padrão MVC, a Camada Controle não é responsável pelas regras de negócio, mas sim pela mediação entre a Visão e o Modelo. As regras de negócio geralmente residem no Modelo.\n\n3. A terceira assertiva descreve o padrão Broker como voltado para ambientes distribuídos, onde um componente broker mediará a comunicação entre clientes e servidores, promovendo o desacoplamento. Esta descrição está correta, pois o padrão Broker é de fato utilizado para tal finalidade em sistemas distribuídos.\n\nPortanto, a ordem correta é: V – F – V, correspondendo à alternativa D.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2019,
+    "id": "2019-63",
+    "numero": 63,
+    "enunciado": "Considere o esquema de tradução dirigida pela sintaxe apresentado a seguir, no qual as produções da gramática foram numeradas:\n| Produções | Ações Semânticas |\n|-|-|\n|1) $L → E n$|$L.val = E.val$|\n|2) $E → E_1 + T$|$E.val = E_1.val + T.val$|\n|3) $E → T$|$E.val = T.val$|\n|4) $T → T_1 * F$|$T.val = T_1.val * F.val$|\n|5) $T → F$|$T.val = F.val$|\n|6) $F → (E)$|$F.val = E.val$|\n|7) $F → \\text{digit}$|$F.val = \\text{digit}.lexval$|\n\nAssinale a alternativa correta sobre o esquema.",
+    "alternativas": [
+      "a) Na produção 4, \\(T.val\\) e \\(F.val\\) são sintetizados.",
+      "b) Na produção 4, \\(T_1.val\\) é herdado.",
+      "c) Na produção 5, \\(T.val\\) e \\(F.val\\) são herdados.",
+      "d) Na produção 2, \\(E.val\\) é sintetizado e \\(T.val\\) é herdado.",
+      "e) Na produção 2, \\(E_1.val\\) é sintetizado e \\(T.val\\) é herdado."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Compiladores",
+    "subarea": "Esquemas de Tradução",
+    "dificuldade": "Média",
+    "gabarito": "A",
+    "solucao": "Para determinar a alternativa correta, precisamos entender as definições de atributos sintetizados e herdados em um esquema de tradução dirigida pela sintaxe. Atributos sintetizados são aqueles que são calculados a partir dos atributos dos filhos no nó da árvore de derivação, enquanto atributos herdados são calculados a partir dos atributos dos irmãos ou do pai do nó. Na produção 4, 'T → T1 * F', T.val é calculado como T1.val * F.val, o que significa que tanto T.val quanto F.val são calculados a partir dos valores dos nós filhos, caracterizando-os como atributos sintetizados. Portanto, a alternativa correta é A) Na produção 4, T.val e F.val são sintetizados.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-51",
+    "numero": 51,
+    "enunciado": "Em um banco de dados relacional, considere um esquema de relação para um conjunto de itens, que define uma hierarquia pertinente à composição de peças de uma máquina, a saber: **ITEM (Id, Nome, Fk)**; o atributo **ID** é a chave primária de ITEM; o atributo **Nome** rotula o item; o atributo **Fk** é uma chave estrangeira em ITEM, que determina o item ascendente imediato na\nhierarquia. Em determinado momento, o conjunto de tuplas em ITEM é: (1, 'Item 1', NULL);\n(2, 'Item 2', 1); (3, 'Item 3', 1); (4, 'Item 4', 3). Seja uma consulta escrita em SQL, conforme\napresentada abaixo:\n```\nSELECT FILHO.Id, FILHO.Nome, PAI.Id, PAI.Nome\nFROM ITEM AS FILHO RIGHT OUTER JOIN ITEM AS PAI ON FILHO.Fk = PAI.Id\n```\nAo executar essa consulta, a relação resultante possui:",
+    "alternativas": [
+      "a) 2 tuplas.",
+      "b) 3 tuplas.",
+      "c) 4 tuplas.",
+      "d) 5 tuplas.",
+      "e) 6 tuplas."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Banco de Dados",
+    "subarea": "Linguagens de Consulta",
+    "dificuldade": "Média",
+    "gabarito": "D",
+    "solucao": "A consulta SQL fornecida utiliza um RIGHT OUTER JOIN na tabela ITEM, unindo a tabela consigo mesma. O RIGHT OUTER JOIN garante que todas as tuplas da tabela à direita (PAI) sejam incluídas no resultado, mesmo que não tenham correspondência na tabela à esquerda (FILHO). A condição de junção é FILHO.Fk = PAI.Id, o que significa que estamos procurando por itens que têm um item pai. Analisando as tuplas fornecidas: (1, 'Item 1', NULL); (2, 'Item 2', 1); (3, 'Item 3', 1); (4, 'Item 4', 3), podemos ver que:\n1. 'Item 2' e 'Item 3' têm 'Item 1' como pai.\n2. 'Item 4' tem 'Item 3' como pai.\n\nAo aplicar o RIGHT OUTER JOIN, obtemos:\n- Para 'Item 1' (PAI), temos duas correspondências: 'Item 2' e 'Item 3'.\n- Para 'Item 3' (PAI), temos uma correspondência: 'Item 4'.\n- 'Item 1' como PAI não tem FILHO correspondente, mas será incluído no resultado devido ao RIGHT OUTER JOIN.\n\nPortanto, o resultado da consulta terá 3 tuplas:\n1. (2, 'Item 2', 1, 'Item 1')\n2. (3, 'Item 3', 1, 'Item 1')\n3. (4, 'Item 4', 3, 'Item 3')\n\nLogo, a resposta correta é a alternativa B) 3 tuplas.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-56",
+    "numero": 56,
+    "enunciado": "Analise as matrizes de transformações geométricas A e B.\n\\[\\textbf{A}:\\begin{bmatrix}x'\\\\y'\\\\1\\end{bmatrix} = \\begin{bmatrix}cos(\\theta) & -sen(\\theta) & 0\\\\ sen(\\theta) & cos(\\theta) & 0\\\\ 0 & 0 & 1\\end{bmatrix} \\cdot \\begin{bmatrix}x\\\\y\\\\1\\end{bmatrix} \\]\n\n\\[\\textbf{B}:\\begin{bmatrix}x'\\\\y'\\\\1\\end{bmatrix} = \\begin{bmatrix}E_x & 0 & T_x\\\\ 0 & E_y & T_y \\\\0 & 0 & 1\\end{bmatrix} \\cdot \\begin{bmatrix}x\\\\y\\\\1\\end{bmatrix} \\]\n\nConsiderando que \\(𝐸_x\\) e \\(𝐸_y\\) são fatores de escala, \\(𝑇_x\\) e \\(𝑇_y\\) são fatores de translação e que \\(\\theta\\) representa\num ângulo de rotação, analise as assertivas a seguir:\\\nI. A transformação **A** rotaciona o objeto com pivô no centro de massa do próprio objeto.\\\nII. A transformação **B** primeiro escala e depois translada o objeto.\\\nIII. O uso da coordenada homogênea tanto para a transformação **A** quanto para **B** é necessário, pois sem ela não é possível a realização de tais transformações.\\\nQuais estão corretas?",
+    "alternativas": [
+      "a) Apenas I.",
+      "b) Apenas II.",
+      "c) Apenas I e III.",
+      "d) Apenas II e III.",
+      "e) I, II e III."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Computação Gráfica",
+    "subarea": "Transformações Geométricas em Duas e Três Dimensões: Coordenadas Homogêneas e Matrizes de Transformação",
+    "dificuldade": "Média",
+    "gabarito": "B",
+    "solucao": "Para resolver a questão, precisamos analisar cada uma das assertivas:\n\nI. A transformação A rotaciona o objeto com pivô no centro de massa do próprio objeto.\n- A matriz A é uma matriz de rotação. No entanto, a rotação em torno do centro de massa do objeto não é garantida apenas pela matriz de rotação padrão. A rotação padrão ocorre em torno da origem do sistema de coordenadas. Para rotacionar em torno do centro de massa, seria necessário primeiro transladar o objeto para que o centro de massa coincida com a origem, aplicar a rotação e depois transladar de volta. Portanto, a assertiva I é falsa.\n\nII. A transformação B primeiro escala e depois translada o objeto.\n- A matriz B é uma matriz de transformação que inclui escala (E_x, E_y) e translação (T_x, T_y). A ordem das operações em uma matriz de transformação composta é da esquerda para a direita, ou seja, a escala é aplicada antes da translação. Portanto, a assertiva II é verdadeira.\n\nIII. O uso da coordenada homogênea tanto para a transformação A quanto para B é necessário, pois sem ela não é possível a realização de tais transformações.\n- Coordenadas homogêneas são necessárias para representar translações em transformações geométricas usando matrizes. Sem coordenadas homogêneas, não seria possível incluir a translação na matriz de transformação. Portanto, a assertiva III é verdadeira.\n\nCom base na análise acima, as assertivas II e III são corretas. Portanto, a alternativa correta é D) Apenas II e III.",
+    "dificuldade_experimental": "Muito Difícil"
+  },
+  {
+    "edicao": 2024,
+    "id": "2024-66",
+    "numero": 66,
+    "enunciado": "Assinale a alternativa correta.",
+    "alternativas": [
+      "a) O protocolo IP é baseado em datagramas e orientado à conexão.",
+      "b) O protocolo IP funciona segundo melhor esforço possível garantindo a entrega de mensagens.",
+      "c) O protocolo IP é conhecido como a cola da Internet porque ele permite que outros protocolos sejam usados no seu lugar.",
+      "d) Várias cópias de um pacote IP podem ser entregues.",
+      "e) O datagrama IP identifica o destinatário através dos campos porta de destino e número IP de\ndestino."
+    ],
+    "area_conhecimento": "Tecnologia de Computação",
+    "area": "Redes de Computadores",
+    "subarea": "Protocolos e Serviços de Comunicação",
+    "dificuldade": "Fácil",
+    "gabarito": "D",
+    "solucao": "A questão aborda o funcionamento do protocolo IP, que é um dos principais protocolos da camada de rede na arquitetura da Internet. Vamos analisar cada alternativa: \n\nA) Incorreta. O protocolo IP não é orientado à conexão; ele é um protocolo de datagrama, o que significa que cada pacote é tratado de forma independente. \n\nB) Correta. O protocolo IP é baseado no princípio de 'melhor esforço', o que significa que ele tenta entregar os pacotes, mas não garante a entrega, a ordem ou a integridade dos dados. \n\nC) Incorreta. O protocolo IP não é substituído por outros protocolos; ele é essencial para a comunicação na Internet, servindo como base para protocolos de camadas superiores. \n\nD) Incorreta. Embora pacotes IP possam ser duplicados devido a retransmissões, o protocolo IP não garante que várias cópias sejam entregues como parte de seu funcionamento normal. \n\nE) Incorreta. O datagrama IP utiliza o endereço IP de destino para identificar o destinatário, mas não inclui informações sobre a porta de destino, que são usadas por protocolos de camada de transporte como TCP ou UDP.",
+    "dificuldade_experimental": "Muito Difícil"
+  }
+]
