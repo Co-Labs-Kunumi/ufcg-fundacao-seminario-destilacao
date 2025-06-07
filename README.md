@@ -2,6 +2,10 @@
 
 > Este repositório documenta o conteúdo e os artefatos utilizados no seminário apresentado sobre **Destilação de Conhecimento**.
 
+> Seminário ocorreu em: 04/06/2025
+
+> Repositório Read-Only
+
 ---
 ## 📚 Artigos Utilizados
 
