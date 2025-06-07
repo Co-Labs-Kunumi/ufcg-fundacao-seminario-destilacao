@@ -18,6 +18,5 @@
 ## 🛠️ Artefatos
 
 - **Apresentação em slides**: [slides/](slides/)
-- **Notebooks**: [notebooks/](notebooks/)
 - **Modelo POSCOMP**: [notebooks/poscomp/](notebooks/poscomp/)
-- **Resumo dos artigos**: [MasterChef-AI](https://agents4good.github.io/MasterChef-AI/content/destilacao/)
+- **Outros casos de Destilação**: [MasterChef-AI](https://agents4good.github.io/MasterChef-AI/content/destilacao/)
