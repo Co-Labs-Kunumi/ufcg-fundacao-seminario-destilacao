@@ -4,8 +4,6 @@
 
 > Seminário ocorreu em: 04/06/2025
 
-> Repositório Read-Only
-
 ---
 ## 📚 Artigos Utilizados
 
@@ -24,3 +22,9 @@
 - **Apresentação em slides**: [slides/](slides/)
 - **Modelo POSCOMP**: [notebooks/poscomp/](notebooks/poscomp/)
 - **Outros casos de Destilação**: [MasterChef-AI](https://agents4good.github.io/MasterChef-AI/content/destilacao/)
+
+---
+## 🤝 Contribuições
+
+- Contribuições são bem-vindas!  
+- Basta abrir uma *issue* ou enviar um *pull request*.
