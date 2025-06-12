@@ -1,0 +1,7 @@
+site_name: 'Distillation Seminar'
+
+nav:
+  - Home: README.md
+
+plugins:
+  - techdocs-core
