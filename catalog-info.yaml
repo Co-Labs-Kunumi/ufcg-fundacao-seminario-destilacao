@@ -3,7 +3,7 @@ kind: Component
 metadata:
     name: distillation-seminar
     title: Distillation Seminar
-    description: Material utilzado na apresentação do seminário sobre Destilação
+    description: Material utilzado na apresentação do seminário sobre Destilação de Conhecimento e o desenvolvimento do modelo POSCOMP
     annotations:
         backstage.io/techdocs-ref: dir:.
         github.com/project-slug: Agents4Good/Distillation-seminar
